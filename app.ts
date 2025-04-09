@@ -25,8 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Cat%20Face.png",
         "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Dog%20Face.png",
         "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Rabbit%20Face.png",
-        // "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Hamster%20Face.png",
-        // "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bear%20Face.png"
+
     ];
 
     // Create an array to store multiple creatures
@@ -37,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const movement: Movement = {
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
-            speed: 1 + Math.random() * 3, // Increased minimum speed
+            speed: -1 + Math.random() * 3, // Increased minimum speed
             direction: Math.random() * Math.PI * 2
         };
         
