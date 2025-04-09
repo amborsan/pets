@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const movement: Movement = {
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
-            speed: 0.3 + Math.random() * 3, // Increased minimum speed
+            speed: 0.3 + Math.random() * 2, // Increased minimum speed
             direction: Math.random() * Math.PI * 2
         };
         
