@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const movement = {
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
-            speed: -1 + Math.random() * 3, // Increased minimum speed
+            speed: -1.5 + Math.random() * 3, // Increased minimum speed
             direction: Math.random() * Math.PI * 2
         };
         // Generate a random color
